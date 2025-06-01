@@ -1,1 +1,2 @@
 # FARA
+This repository contains the FARA testing framework, and our dataset (all apps used in our empirical study and evaluation). They are available in two separate folders: FARA tool and source code and dataset.
