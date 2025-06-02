@@ -20,20 +20,25 @@ Before running FARA, ensure your system meets these requirements:
 Execute the testing framework in the following sequence:
 
 ### Step 1: Initialize State Transition Model
-
+```bash
 cd "FARA tool and source code/StateTransitionModel"  
 
 java -cp . Main
+```
 
 ### Step 2: Execute Dynamic Analysis
+```bash
 cd "../DynamicAnalysis"  
 
 java -cp . DynamicTest dynamicAnalysis
+```
 
 ### Step 3: Launch GUI Testing
+```bash
 cd ../..  
 
 python gui-testing.py
+```
 
 ## Troubleshooting
 If you encounter issues:
