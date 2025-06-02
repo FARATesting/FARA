@@ -1,7 +1,7 @@
 # FARA
 This repository contains the FARA testing framework, and our dataset (all apps used in our empirical study and evaluation). They are available in two separate folders: FARA tool and source code and dataset.
 
-##Prerequisites
+## Prerequisites
 Before running FARA, ensure your system meets these requirements:
 
 - Operating System: Ubuntu 18.04 or Windows 11
@@ -16,10 +16,10 @@ Before running FARA, ensure your system meets these requirements:
 
 - ADB Tools: Android Debug Bridge installed and configured
 
-##Running FARA
+## Running FARA
 Execute the testing framework in the following sequence:
 
-###Step 1: Initialize State Transition Model
+### Step 1: Initialize State Transition Model
 cd "FARA tool and source code/StateTransitionModel"
 java -cp . Main
 
@@ -31,7 +31,7 @@ java -cp . DynamicTest dynamicAnalysis
 cd ../..
 python gui-testing.py
 
-##Troubleshooting
+## Troubleshooting
 If you encounter issues:
 
 - Ensure all environment variables are properly configured
