@@ -21,15 +21,18 @@ Execute the testing framework in the following sequence:
 
 ### Step 1: Initialize State Transition Model
 
-**cd "FARA tool and source code/StateTransitionModel"**
-**java -cp . Main**
+cd "FARA tool and source code/StateTransitionModel"  
+
+java -cp . Main
 
 ### Step 2: Execute Dynamic Analysis
-cd "../DynamicAnalysis"
+cd "../DynamicAnalysis"  
+
 java -cp . DynamicTest dynamicAnalysis
 
 ### Step 3: Launch GUI Testing
-cd ../..
+cd ../..  
+
 python gui-testing.py
 
 ## Troubleshooting
