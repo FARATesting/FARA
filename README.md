@@ -4,7 +4,7 @@ This repository contains the FARA testing framework, and our dataset (all apps u
 ## Demo
 <table><tr>
 <td>
-<div>
+<div style="border: none;">
 <img src="demo/FARA.gif" border=0>
 </div>
 </td>
