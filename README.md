@@ -1,6 +1,15 @@
 # FARA
 This repository contains the FARA testing framework, and our dataset (all apps used in our empirical study and evaluation). They are available in two separate folders: FARA tool and source code and dataset.
 
+## Demo
+<table><tr>
+<td>
+<div>
+<img src="demo/FARA.gif" border=0>
+</div>
+</td>
+</tr></table>
+
 ## Prerequisites
 Before running FARA, ensure your system meets these requirements:
 
@@ -22,21 +31,18 @@ Execute the testing framework in the following sequence:
 ### Step 1: Initialize State Transition Model
 ```bash
 cd "FARA tool and source code/StateTransitionModel"  
-
 java -cp . Main
 ```
 
 ### Step 2: Execute Dynamic Analysis
 ```bash
 cd "../DynamicAnalysis"  
-
 java -cp . DynamicTest dynamicAnalysis
 ```
 
 ### Step 3: Launch GUI Testing
 ```bash
 cd ../..  
-
 python gui-testing.py
 ```
 
