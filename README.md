@@ -17,11 +17,11 @@ Before running FARA, ensure your system meets these requirements:
 
 - Java Development Kit: JDK 1.8 (with JAVA_HOME environment variable configured)
 
-- Android SDK: Android 9.0 (API 28) with ANDROID_HOME environment variable set
+- Android SDK: Android 12 (API 31) with ANDROID_HOME environment variable set
 
 - Python: Version 3.7 or higher
 
-- Android Device: Physical device or emulator (API 28) connected to your PC
+- Android Device: Physical device or emulator (API 31) connected to your PC
 
 - ADB Tools: Android Debug Bridge installed and configured
 
@@ -51,6 +51,6 @@ If you encounter issues:
 
 - Check that required ports (e.g., 5037 for ADB) are not blocked
 
-- Confirm API level compatibility (API 28)
+- Confirm API level compatibility (API 31)
 
 - Ensure Python 3.7+ is set as default Python interpreter
